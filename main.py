@@ -1,7 +1,7 @@
-from services.catalogue_service import CatalogueService
-from exception.exceptions import CatalogueError,CatalogueDateExpired,CatalogueDeleteError,CatalogueNotFoundError,CatalogueUpdateError
+from backend.services.catalogue_service import CatalogueService
+from backend.exception.exceptions import CatalogueError,CatalogueDateExpired,CatalogueDeleteError,CatalogueNotFoundError,CatalogueUpdateError
 from datetime import datetime
-from util.validators import validate_active_status,validate_date_format,validate_date_order,validate_non_empty
+from backend.util.validators import validate_active_status,validate_date_format,validate_date_order,validate_non_empty
 
 def main():
     service = CatalogueService()

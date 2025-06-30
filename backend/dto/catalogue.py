@@ -10,7 +10,7 @@ class Catalogue:
         self.status=active
 
     def display_info(self):
-        print("\n---CATALOGUE LIST----")
+        
         print(f"\nID ={self.catlogue_id}")
         print(f"NAME = {self.name}")
         print(f"DESCRIPTION = {self.description}")

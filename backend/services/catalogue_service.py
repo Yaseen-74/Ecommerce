@@ -1,13 +1,18 @@
-from dto.catalogue import Catalogue
-from util.database_connector import get_connection 
-from exception.exceptions import(CatalogueDateExpired,CatalogueDeleteError,CatalogueError,CatalogueNotFoundError,CatalogueUpdateError)
-from datetime import date
+from backend.dto.catalogue import Catalogue
+from backend.util.database_connector import get_connection 
+from backend.exception.exceptions import(CatalogueDateExpired,CatalogueDeleteError,CatalogueError,CatalogueNotFoundError,CatalogueUpdateError)
+from datetime import date,datetime
 
 class CatalogueService:
 
 
     def create_catalogue(self,name,description,start_date,end_date,active=True):
+        con = None
         try:
+            if isinstance(start_date, str):
+                start_date = datetime.strptime(start_date, "%Y-%m-%d").date()
+            if isinstance(end_date, str):
+                end_date = datetime.strptime(end_date, "%Y-%m-%d").date()
             if end_date<date.today():
                 raise CatalogueDateExpired(name)
             
@@ -22,7 +27,7 @@ class CatalogueService:
             
 
         except CatalogueDateExpired as e:
-            print(f"Error:{e}")
+            raise e
 
         except Exception as e:
             raise CatalogueError(f"Error for creating {e}")
@@ -33,6 +38,7 @@ class CatalogueService:
 
 
     def get_catalogue(self,catalogue_id):
+        con=None
         try:
             con=get_connection()
             cursor=con.cursor()
@@ -48,6 +54,7 @@ class CatalogueService:
             if not row:
                 raise CatalogueNotFoundError(catalogue_id)
             
+            print("\n---CATALOGUE LIST----")
             catalogue_id,name,description,start_date,end_date,active = row
             catalogue=Catalogue(catalogue_id,name,description,start_date,end_date,active)
             catalogue.display_info()
@@ -65,6 +72,7 @@ class CatalogueService:
 
             
     def get_all_catalogue(self):
+        con=None
         try:
             con=get_connection()
             cursor=con.cursor()
@@ -82,6 +90,7 @@ class CatalogueService:
                 print("There is no catalogues.")
                 return
             
+            print("\n---CATALOGUE LIST----")
             for row in rows:
                 catalogue_id,name,description,start_date,end_date,active = row
                 catalogue=Catalogue(catalogue_id,name,description,start_date,end_date,active)
@@ -96,6 +105,7 @@ class CatalogueService:
 
 
     def update_catalogue(self,catalogue_id,name,description,start_date,end_date,active=True):
+        con = None
         try:
             con=get_connection()
             cursor=con.cursor()
@@ -120,6 +130,7 @@ class CatalogueService:
 
     
     def delete_catalogue(self,catalogue_id):
+        con = None
         try:
             con=get_connection()
             cursor=con.cursor()
@@ -141,6 +152,35 @@ class CatalogueService:
         finally:
             if con:
                 con.close()
+
+    def get_all_catalogue_json(self):
+        con = None
+        
+        try:
+            con = get_connection()
+            cursor = con.cursor()
+            cursor.execute("SELECT * FROM catalogue")
+            rows = cursor.fetchall()
+            keys = ['catalogue_id', 'name', 'description', 'start_date', 'end_date', 'active']
+            return [dict(zip(keys, row)) for row in rows]
+        finally:
+            con.close()
+
+    def get_catalogue_json(self, catalogue_id):
+        con = None
+        
+        try:
+            con = get_connection()
+            cursor = con.cursor()
+            cursor.execute("SELECT * FROM catalogue WHERE catalogue_id = %s", (catalogue_id,))
+            row = cursor.fetchone()
+            if not row:
+                raise CatalogueNotFoundError(catalogue_id)
+            keys = ['catalogue_id', 'name', 'description', 'start_date', 'end_date', 'active']
+            return dict(zip(keys, row))
+        finally:
+            con.close()
+
 
     
 

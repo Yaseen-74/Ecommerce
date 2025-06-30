@@ -54,4 +54,15 @@ class CatalogueDateExpired(CatalogueError):
 
     def __str__(self):
         return f"{self.error_code}{self.message}"
+    
+class DatabaseConnectorError(CatalogueError):
+    error_code = "Database Connection Error"
+
+    def __init__(self, message=" in Catalogue Connection"):
+        self.message = message
+        super().__init__(self.message)
+
+    def __str__(self):
+        return f"[{self.error_code}] {self.message}"
+
 

@@ -1,5 +1,5 @@
 from datetime import datetime
-from exception.exceptions import InvalidInputError
+from backend.exception.exceptions import InvalidInputError
 
 def validate_non_empty(field_name, value):
     if not value or str(value).strip() == "":
