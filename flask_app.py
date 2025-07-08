@@ -12,8 +12,10 @@ from backend.services.authentication_service import AuthenticationService
 import os
 import logging
 
+
 app = Flask(__name__, static_folder='frontend', static_url_path='')
 CORS(app)
+
 app.config['JSON_SORT_KEYS'] = False 
 
 service = CatalogueService()

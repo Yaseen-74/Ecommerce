@@ -368,3 +368,346 @@
 2025-07-08 00:36:08,321 - INFO - Fetching all catalogues
 2025-07-08 00:36:08,360 - INFO - Fetched 10 catalogues
 2025-07-08 00:36:08,361 - INFO - 127.0.0.1 - - [08/Jul/2025 00:36:08] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 11:41:30,744 - INFO - Starting Flask app
+2025-07-08 11:41:31,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:41:31,017 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:41:31,023 - INFO -  * Restarting with stat
+2025-07-08 11:41:32,112 - INFO - Starting Flask app
+2025-07-08 11:41:32,166 - WARNING -  * Debugger is active!
+2025-07-08 11:41:32,184 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:48:09,245 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 11:48:09,925 - INFO -  * Restarting with stat
+2025-07-08 11:48:11,110 - INFO - Starting Flask app
+2025-07-08 11:48:11,197 - WARNING -  * Debugger is active!
+2025-07-08 11:48:11,210 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:48:18,336 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 11:48:18,490 - INFO -  * Restarting with stat
+2025-07-08 11:48:19,251 - INFO - Starting Flask app
+2025-07-08 11:48:19,296 - WARNING -  * Debugger is active!
+2025-07-08 11:48:19,301 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:48:38,634 - INFO - Starting Flask app
+2025-07-08 11:48:38,718 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:48:38,719 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:48:38,722 - INFO -  * Restarting with stat
+2025-07-08 11:48:39,433 - INFO - Starting Flask app
+2025-07-08 11:48:39,475 - WARNING -  * Debugger is active!
+2025-07-08 11:48:39,480 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:50:17,288 - INFO - Starting Flask app
+2025-07-08 11:50:17,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:50:17,386 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:50:17,389 - INFO -  * Restarting with stat
+2025-07-08 11:50:18,196 - INFO - Starting Flask app
+2025-07-08 11:50:18,243 - WARNING -  * Debugger is active!
+2025-07-08 11:50:18,249 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:50:42,760 - INFO - Starting Flask app
+2025-07-08 11:50:42,832 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:50:42,833 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:50:42,835 - INFO -  * Restarting with stat
+2025-07-08 11:50:43,513 - INFO - Starting Flask app
+2025-07-08 11:50:43,552 - WARNING -  * Debugger is active!
+2025-07-08 11:50:43,556 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:53:33,126 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 11:53:33,319 - INFO -  * Restarting with stat
+2025-07-08 11:53:34,179 - INFO - Starting Flask app
+2025-07-08 11:53:34,226 - WARNING -  * Debugger is active!
+2025-07-08 11:53:34,231 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:54:08,456 - INFO - Starting Flask app
+2025-07-08 11:54:08,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:54:08,539 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:54:08,542 - INFO -  * Restarting with stat
+2025-07-08 11:54:09,327 - INFO - Starting Flask app
+2025-07-08 11:54:09,379 - WARNING -  * Debugger is active!
+2025-07-08 11:54:09,383 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:54:51,015 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\flask_app.py', reloading
+2025-07-08 11:54:51,115 - INFO -  * Restarting with stat
+2025-07-08 11:55:34,766 - INFO - Starting Flask app
+2025-07-08 11:55:34,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:55:34,852 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:55:34,856 - INFO -  * Restarting with stat
+2025-07-08 11:55:35,554 - INFO - Starting Flask app
+2025-07-08 11:55:35,597 - WARNING -  * Debugger is active!
+2025-07-08 11:55:35,602 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:58:25,593 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 11:58:25,713 - INFO -  * Restarting with stat
+2025-07-08 11:58:26,632 - INFO - Starting Flask app
+2025-07-08 11:58:26,779 - WARNING -  * Debugger is active!
+2025-07-08 11:58:26,784 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:58:43,070 - INFO - Starting Flask app
+2025-07-08 11:58:43,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 11:58:43,159 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 11:58:43,163 - INFO -  * Restarting with stat
+2025-07-08 11:58:43,862 - INFO - Starting Flask app
+2025-07-08 11:58:43,909 - WARNING -  * Debugger is active!
+2025-07-08 11:58:43,913 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 11:59:47,798 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 11:59:48,000 - INFO -  * Restarting with stat
+2025-07-08 11:59:49,445 - INFO - Starting Flask app
+2025-07-08 11:59:49,496 - WARNING -  * Debugger is active!
+2025-07-08 11:59:49,500 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:00:05,653 - INFO - Starting Flask app
+2025-07-08 12:00:05,730 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 12:00:05,731 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 12:00:05,734 - INFO -  * Restarting with stat
+2025-07-08 12:00:06,442 - INFO - Starting Flask app
+2025-07-08 12:00:06,487 - WARNING -  * Debugger is active!
+2025-07-08 12:00:06,491 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:01:31,515 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 12:01:31,656 - INFO -  * Restarting with stat
+2025-07-08 12:01:32,930 - INFO - Starting Flask app
+2025-07-08 12:01:33,011 - WARNING -  * Debugger is active!
+2025-07-08 12:01:33,016 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:01:48,710 - INFO - Starting Flask app
+2025-07-08 12:01:48,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 12:01:48,785 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 12:01:48,789 - INFO -  * Restarting with stat
+2025-07-08 12:01:49,513 - INFO - Starting Flask app
+2025-07-08 12:01:49,557 - WARNING -  * Debugger is active!
+2025-07-08 12:01:49,563 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:03:30,863 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 12:03:30,998 - INFO -  * Restarting with stat
+2025-07-08 12:03:32,383 - INFO - Starting Flask app
+2025-07-08 12:03:32,430 - WARNING -  * Debugger is active!
+2025-07-08 12:03:32,436 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:03:45,246 - INFO - Starting Flask app
+2025-07-08 12:03:45,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 12:03:45,320 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 12:03:45,325 - INFO -  * Restarting with stat
+2025-07-08 12:03:46,031 - INFO - Starting Flask app
+2025-07-08 12:03:46,072 - WARNING -  * Debugger is active!
+2025-07-08 12:03:46,077 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:05:33,074 - INFO - Serving catalogue page
+2025-07-08 12:05:33,603 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:33] "GET /catalogue.html HTTP/1.1" 200 -
+2025-07-08 12:05:33,709 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:33] "GET /style.css HTTP/1.1" 200 -
+2025-07-08 12:05:33,893 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:33] "GET /script.js HTTP/1.1" 200 -
+2025-07-08 12:05:33,924 - INFO - Fetching all catalogues
+2025-07-08 12:05:33,951 - WARNING - 404 Error encountered
+2025-07-08 12:05:33,955 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-08 12:05:34,075 - INFO - Fetched 22 catalogues
+2025-07-08 12:05:34,077 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:34] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 12:05:35,562 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:35] "GET /login.html HTTP/1.1" 200 -
+2025-07-08 12:05:35,599 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:35] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 12:05:37,684 - INFO - Login attempt received
+2025-07-08 12:05:37,728 - INFO - Login successful for user: admin
+2025-07-08 12:05:37,731 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:37] "POST /login HTTP/1.1" 200 -
+2025-07-08 12:05:38,773 - INFO - Serving catalogue page
+2025-07-08 12:05:38,780 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:38] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 12:05:38,859 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:38] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 12:05:38,874 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:38] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 12:05:38,924 - INFO - Fetching all catalogues
+2025-07-08 12:05:38,950 - INFO - Fetched 22 catalogues
+2025-07-08 12:05:38,952 - INFO - 127.0.0.1 - - [08/Jul/2025 12:05:38] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 12:13:06,981 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\tests\\test_catalogue_api.py', reloading
+2025-07-08 12:13:08,059 - INFO -  * Restarting with stat
+2025-07-08 12:13:09,384 - INFO - Starting Flask app
+2025-07-08 12:13:09,450 - WARNING -  * Debugger is active!
+2025-07-08 12:13:09,459 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 12:48:43,410 - INFO - Starting Flask app
+2025-07-08 12:48:43,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 12:48:43,524 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 12:48:43,529 - INFO -  * Restarting with stat
+2025-07-08 12:48:44,213 - INFO - Starting Flask app
+2025-07-08 12:48:44,256 - WARNING -  * Debugger is active!
+2025-07-08 12:48:44,266 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:34:18,218 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 19:34:18,220 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 19:34:18,226 - INFO -  * Restarting with stat
+2025-07-08 19:34:19,247 - WARNING -  * Debugger is active!
+2025-07-08 19:34:19,266 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:35:14,687 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:14] "GET / HTTP/1.1" 200 -
+2025-07-08 19:35:15,420 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:15] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 19:35:17,823 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:17] "POST /login HTTP/1.1" 200 -
+2025-07-08 19:35:18,904 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:18] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:35:18,960 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:18] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:35:18,971 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:18] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 19:35:19,086 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:19] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:35:34,102 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:34] "[31m[1mPOST /api/catalogues HTTP/1.1[0m" 400 -
+2025-07-08 19:35:46,777 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:46] "[35m[1mPOST /api/catalogues HTTP/1.1[0m" 201 -
+2025-07-08 19:35:50,395 - INFO - 127.0.0.1 - - [08/Jul/2025 19:35:50] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:39:09,190 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:09] "GET /api/catalogues/90 HTTP/1.1" 200 -
+2025-07-08 19:39:13,350 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:13] "[33mGET /api/catalogues/0 HTTP/1.1[0m" 404 -
+2025-07-08 19:39:14,523 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:14] "[33mGET /api/catalogues/0 HTTP/1.1[0m" 404 -
+2025-07-08 19:39:15,561 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:15] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:39:19,360 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:19] "GET /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:39:22,411 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:22] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:39:31,971 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\flask_app.py', reloading
+2025-07-08 19:39:32,426 - INFO -  * Restarting with stat
+2025-07-08 19:39:35,503 - INFO - Starting Flask app
+2025-07-08 19:39:35,581 - WARNING -  * Debugger is active!
+2025-07-08 19:39:35,592 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:39:46,241 - INFO - Serving catalogue page
+2025-07-08 19:39:46,320 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:46] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:39:46,360 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:46] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:39:46,375 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:46] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 19:39:46,402 - INFO - Fetching all catalogues
+2025-07-08 19:39:46,707 - INFO - Fetched 71 catalogues
+2025-07-08 19:39:46,711 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:46] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:39:48,709 - INFO - Fetching catalogue with ID: 114
+2025-07-08 19:39:48,727 - INFO - Fetched catalogue: {'catalogue_id': 114, 'name': '1', 'description': '1', 'start_date': datetime.date(2025, 7, 12), 'end_date': datetime.date(2025, 7, 12), 'active': 1}
+2025-07-08 19:39:48,729 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:48] "GET /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:39:49,937 - INFO - Update request for catalogue ID 114
+2025-07-08 19:39:49,938 - DEBUG - Update data: {'name': '1', 'description': '1', 'start_date': '2025-07-12', 'end_date': '2025-07-12', 'active': True}
+2025-07-08 19:39:49,938 - WARNING - Invalid name
+2025-07-08 19:39:49,940 - INFO - 127.0.0.1 - - [08/Jul/2025 19:39:49] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:43:37,157 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\flask_app.py', reloading
+2025-07-08 19:43:37,691 - INFO -  * Restarting with stat
+2025-07-08 19:43:40,339 - INFO - Starting Flask app
+2025-07-08 19:43:40,435 - WARNING -  * Debugger is active!
+2025-07-08 19:43:40,475 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:43:43,641 - INFO - Serving catalogue page
+2025-07-08 19:43:43,760 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:43] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:43:43,908 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:43] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:43:43,912 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:43] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 19:43:43,947 - INFO - Fetching all catalogues
+2025-07-08 19:43:44,434 - INFO - Fetched 71 catalogues
+2025-07-08 19:43:44,438 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:44] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:43:46,922 - INFO - Fetching catalogue with ID: 114
+2025-07-08 19:43:46,938 - INFO - Fetched catalogue: {'catalogue_id': 114, 'name': '1', 'description': '1', 'start_date': datetime.date(2025, 7, 12), 'end_date': datetime.date(2025, 7, 12), 'active': 1}
+2025-07-08 19:43:46,939 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:46] "GET /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:43:48,015 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:48] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:43:57,110 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:57] "PUT /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:43:59,250 - INFO - Fetching all catalogues
+2025-07-08 19:43:59,269 - INFO - Fetched 71 catalogues
+2025-07-08 19:43:59,273 - INFO - 127.0.0.1 - - [08/Jul/2025 19:43:59] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:45:57,554 - INFO - Serving catalogue page
+2025-07-08 19:45:57,584 - INFO - 127.0.0.1 - - [08/Jul/2025 19:45:57] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:45:57,629 - INFO - 127.0.0.1 - - [08/Jul/2025 19:45:57] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:45:57,631 - INFO - 127.0.0.1 - - [08/Jul/2025 19:45:57] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2025-07-08 19:45:57,664 - INFO - Fetching all catalogues
+2025-07-08 19:45:57,707 - INFO - Fetched 71 catalogues
+2025-07-08 19:45:57,713 - INFO - 127.0.0.1 - - [08/Jul/2025 19:45:57] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:45:58,930 - INFO - Fetching catalogue with ID: 114
+2025-07-08 19:45:58,950 - INFO - Fetched catalogue: {'catalogue_id': 114, 'name': 'w', 'description': '1', 'start_date': datetime.date(2025, 7, 12), 'end_date': datetime.date(2025, 7, 12), 'active': 1}
+2025-07-08 19:45:58,951 - INFO - 127.0.0.1 - - [08/Jul/2025 19:45:58] "GET /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:46:00,718 - INFO - 127.0.0.1 - - [08/Jul/2025 19:46:00] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:46:14,749 - INFO - 127.0.0.1 - - [08/Jul/2025 19:46:14] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:46:22,630 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\flask_app.py', reloading
+2025-07-08 19:46:23,118 - INFO -  * Restarting with stat
+2025-07-08 19:46:25,153 - INFO - Starting Flask app
+2025-07-08 19:46:25,260 - WARNING -  * Debugger is active!
+2025-07-08 19:46:25,279 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:46:51,656 - INFO -  * Detected change in 'd:\\Yaseen intern\\DB py\\ecommerce\\flask_app.py', reloading
+2025-07-08 19:46:51,833 - INFO -  * Restarting with stat
+2025-07-08 19:46:57,362 - INFO - Starting Flask app
+2025-07-08 19:46:57,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.237:5000
+2025-07-08 19:46:57,452 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 19:46:57,456 - INFO -  * Restarting with stat
+2025-07-08 19:46:58,174 - INFO - Starting Flask app
+2025-07-08 19:46:58,215 - WARNING -  * Debugger is active!
+2025-07-08 19:46:58,219 - INFO -  * Debugger PIN: 133-109-287
+2025-07-08 19:47:17,551 - INFO - Update request for catalogue ID 114
+2025-07-08 19:47:17,553 - DEBUG - Update data: {'name': '1', 'description': '2', 'start_date': '2025-07-12', 'end_date': '2025-07-12', 'active': True}
+2025-07-08 19:47:17,554 - WARNING - Invalid name
+2025-07-08 19:47:17,557 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:17] "[31m[1mPUT /api/catalogues/114 HTTP/1.1[0m" 400 -
+2025-07-08 19:47:23,743 - INFO - Delete request for catalogue ID 114
+2025-07-08 19:47:24,071 - INFO - Catalogue ID 114 deleted successfully
+2025-07-08 19:47:24,073 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:24] "DELETE /api/catalogues/114 HTTP/1.1" 200 -
+2025-07-08 19:47:24,988 - INFO - Fetching all catalogues
+2025-07-08 19:47:25,018 - INFO - Fetched 70 catalogues
+2025-07-08 19:47:25,020 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:25] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:47:33,510 - INFO - Delete request for catalogue ID 112
+2025-07-08 19:47:33,541 - INFO - Catalogue ID 112 deleted successfully
+2025-07-08 19:47:33,542 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:33] "DELETE /api/catalogues/112 HTTP/1.1" 200 -
+2025-07-08 19:47:34,678 - INFO - Fetching all catalogues
+2025-07-08 19:47:34,701 - INFO - Fetched 69 catalogues
+2025-07-08 19:47:34,709 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:34] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:47:58,028 - INFO - Delete request for catalogue ID 107
+2025-07-08 19:47:58,066 - INFO - Catalogue ID 107 deleted successfully
+2025-07-08 19:47:58,068 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:58] "DELETE /api/catalogues/107 HTTP/1.1" 200 -
+2025-07-08 19:47:59,046 - INFO - Fetching all catalogues
+2025-07-08 19:47:59,073 - INFO - Fetched 68 catalogues
+2025-07-08 19:47:59,076 - INFO - 127.0.0.1 - - [08/Jul/2025 19:47:59] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:02,353 - INFO - Delete request for catalogue ID 111
+2025-07-08 19:48:02,391 - INFO - Catalogue ID 111 deleted successfully
+2025-07-08 19:48:02,394 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:02] "DELETE /api/catalogues/111 HTTP/1.1" 200 -
+2025-07-08 19:48:03,012 - INFO - Fetching all catalogues
+2025-07-08 19:48:03,051 - INFO - Fetched 67 catalogues
+2025-07-08 19:48:03,056 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:03] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:05,978 - INFO - Delete request for catalogue ID 110
+2025-07-08 19:48:06,015 - INFO - Catalogue ID 110 deleted successfully
+2025-07-08 19:48:06,016 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:06] "DELETE /api/catalogues/110 HTTP/1.1" 200 -
+2025-07-08 19:48:06,860 - INFO - Fetching all catalogues
+2025-07-08 19:48:06,884 - INFO - Fetched 66 catalogues
+2025-07-08 19:48:06,886 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:06] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:10,786 - INFO - Delete request for catalogue ID 103
+2025-07-08 19:48:10,812 - INFO - Catalogue ID 103 deleted successfully
+2025-07-08 19:48:10,813 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:10] "DELETE /api/catalogues/103 HTTP/1.1" 200 -
+2025-07-08 19:48:11,539 - INFO - Fetching all catalogues
+2025-07-08 19:48:11,559 - INFO - Fetched 65 catalogues
+2025-07-08 19:48:11,561 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:11] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:14,350 - INFO - Delete request for catalogue ID 102
+2025-07-08 19:48:14,382 - INFO - Catalogue ID 102 deleted successfully
+2025-07-08 19:48:14,384 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:14] "DELETE /api/catalogues/102 HTTP/1.1" 200 -
+2025-07-08 19:48:15,071 - INFO - Fetching all catalogues
+2025-07-08 19:48:15,093 - INFO - Fetched 64 catalogues
+2025-07-08 19:48:15,097 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:15] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:18,067 - INFO - Delete request for catalogue ID 100
+2025-07-08 19:48:18,092 - INFO - Catalogue ID 100 deleted successfully
+2025-07-08 19:48:18,093 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:18] "DELETE /api/catalogues/100 HTTP/1.1" 200 -
+2025-07-08 19:48:18,812 - INFO - Fetching all catalogues
+2025-07-08 19:48:18,834 - INFO - Fetched 63 catalogues
+2025-07-08 19:48:18,837 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:18] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:21,643 - INFO - Delete request for catalogue ID 99
+2025-07-08 19:48:21,673 - INFO - Catalogue ID 99 deleted successfully
+2025-07-08 19:48:21,677 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:21] "DELETE /api/catalogues/99 HTTP/1.1" 200 -
+2025-07-08 19:48:22,413 - INFO - Fetching all catalogues
+2025-07-08 19:48:22,434 - INFO - Fetched 62 catalogues
+2025-07-08 19:48:22,437 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:22] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:25,002 - INFO - Delete request for catalogue ID 98
+2025-07-08 19:48:25,028 - INFO - Catalogue ID 98 deleted successfully
+2025-07-08 19:48:25,030 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:25] "DELETE /api/catalogues/98 HTTP/1.1" 200 -
+2025-07-08 19:48:25,882 - INFO - Fetching all catalogues
+2025-07-08 19:48:25,909 - INFO - Fetched 61 catalogues
+2025-07-08 19:48:25,912 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:25] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:48:45,471 - INFO - Serving catalogue page
+2025-07-08 19:48:45,576 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:45] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:48:45,688 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:45] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:48:46,570 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:46] "GET /script.js HTTP/1.1" 200 -
+2025-07-08 19:48:46,593 - INFO - Fetching all catalogues
+2025-07-08 19:48:46,614 - INFO - Fetched 61 catalogues
+2025-07-08 19:48:46,616 - INFO - 127.0.0.1 - - [08/Jul/2025 19:48:46] "GET /api/catalogues HTTP/1.1" 200 -
+2025-07-08 19:49:03,554 - INFO - Serving catalogue page
+2025-07-08 19:49:03,555 - INFO - 127.0.0.1 - - [08/Jul/2025 19:49:03] "[36mGET /catalogue.html HTTP/1.1[0m" 304 -
+2025-07-08 19:49:03,608 - INFO - 127.0.0.1 - - [08/Jul/2025 19:49:03] "[36mGET /style.css HTTP/1.1[0m" 304 -
+2025-07-08 19:49:03,655 - INFO - 127.0.0.1 - - [08/Jul/2025 19:49:03] "GET /script.js HTTP/1.1" 200 -
+2025-07-08 19:49:03,673 - INFO - Fetching all catalogues
+2025-07-08 19:49:03,693 - INFO - Fetched 61 catalogues
+2025-07-08 19:49:03,695 - INFO - 127.0.0.1 - - [08/Jul/2025 19:49:03] "GET /api/catalogues HTTP/1.1" 200 -

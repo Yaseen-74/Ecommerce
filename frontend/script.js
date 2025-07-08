@@ -2,9 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const loginForm = document.getElementById('loginForm');
   const errorMessage = document.getElementById('error-message');
 
-  // ================================
-  // LOGIN PAGE FUNCTIONALITY
-  // ================================
   if (loginForm) {
     loginForm.addEventListener('submit', async function (e) {
       e.preventDefault();
@@ -58,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const cancelCreate = document.getElementById('cancelCreate');
 
   let currentPage = 1;
-  const ITEMS_PER_PAGE = 6;
+  const ITEMS_PER_PAGE = 9;
   let allCatalogues = [];
 
   if (createForm) createForm.addEventListener('submit', handleCreate);
