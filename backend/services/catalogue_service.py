@@ -23,9 +23,9 @@ class CatalogueService:
 
             cursor.execute(query,(name,description,start_date,end_date,active))
             con.commit()
-
-            
-
+            new_id = cursor.lastrowid 
+            return new_id
+        
         except CatalogueDateExpired as e:
             raise e
 
@@ -111,6 +111,12 @@ class CatalogueService:
             cursor=con.cursor()
 
             query="""update catalogue set catalogue_name = %s,catalogue_description = %s,start_date = %s,end_date = %s ,active = %s where catalogue_id = %s"""
+            
+            if not name.strip():
+                raise ValueError("Name Cannot be Empty")
+            if not name.isalpha():
+                raise ValueError("Name must be string")
+            
             cursor.execute(query,(name,description,start_date,end_date,active,catalogue_id))
             con.commit()
 

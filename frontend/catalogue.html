@@ -1,27 +1,34 @@
-<!-- catalogue.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Catalogue Management</title>
+  <title>Catalogue Management System</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Catalogue Management</h1>
-    <a href="index.html" class="btn btn-secondary" style="position: absolute; top: 20px; left: 20px;">&larr; Back</a>
+    <h1>Catalogue Management System</h1>
+    <a href="login.html" class="btn btn-secondary" style="position: absolute; top: 20px; left: 20px;">LOGOUT</a>
   </header>
 
   <main class="container">
-    <section class="search-section">
-      <input type="number" id="searchId" placeholder="Enter Catalogue ID" min="1">
-      <button class="btn btn-primary" id="searchBtn">Search by ID</button>
-    </section>
+    <div class="actions" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+      <div class="actions">
+        <button id="refreshBtn" class="btn btn-secondary">Refresh</button>
+        <button id="createToggleBtn" class="btn btn-primary">+ Create Catalogue</button>
+      </div>
+      <div class="filter-status" style="margin-top: 1px;" >
+        <label for="statusFilter">Filter:</label>
+        <select id="statusFilter">
+          <option value="all">All</option>
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select>
+      </div>
+    </div>
 
-    <div id="searchResult"></div>
-
-    <section class="card">
+    <section class="card" id="createSection" style="display: none;">
       <h2>Create Catalogue</h2>
       <form id="createForm">
         <div class="form-row">
@@ -48,16 +55,23 @@
         </div>
         <div class="form-actions">
           <button type="submit" class="btn btn-primary">Create</button>
+          <button type="button" class="btn btn-secondary" id="cancelCreate">Cancel</button>
         </div>
       </form>
     </section>
 
     <section class="card">
-      <div class="actions">
-        <button id="refreshBtn" class="btn btn-secondary">Refresh</button>
+      <div class="catalogue-header">
+        <h2>All Catalogues</h2>
+        <div class="search-id">
+          <label for="searchId">Search by ID:</label>
+          <input type="number" id="searchId" placeholder="Enter ID" />
+          <button class="btn btn-secondary" id="searchBtn">Search</button>
+          <button class="btn btn-secondary" id="clearBtn">Clear</button>
+        </div>
       </div>
-      <h2>All Catalogues</h2>
       <div id="catalogueList" class="catalogue-container"></div>
+      <div id="paginationControls" style="text-align: center; margin-top: 20px;"></div>
     </section>
 
     <section class="card" id="editSection" style="display: none;">
@@ -88,26 +102,11 @@
         </div>
         <div class="form-actions">
           <button type="submit" class="btn btn-primary">Update</button>
-          <button type="button" id="deleteBtn" class="btn btn-danger">Delete</button>
-          <button type="button" id="cancelEdit" class="btn btn-secondary">Cancel</button>
+          <button type="button" class="btn btn-secondary" id="cancelEdit">Cancel</button>
         </div>
       </form>
     </section>
   </main>
-
-  <!-- MODAL -->
-  <div id="catalogueModal" class="modal">
-    <div class="modal-content">
-      <span class="close-btn" id="closeModal">&times;</span>
-      <h2 id="modalTitle"></h2>
-      <p><strong>Description:</strong> <span id="modalDescription"></span></p>
-      <p><strong>Start Date:</strong> <span id="modalStartDate"></span></p>
-      <p><strong>End Date:</strong> <span id="modalEndDate"></span></p>
-      <p><strong>Status:</strong> <span id="modalStatus"></span></p>
-    </div>
-  </div>
-  
-  
 
   <script src="script.js"></script>
 </body>
